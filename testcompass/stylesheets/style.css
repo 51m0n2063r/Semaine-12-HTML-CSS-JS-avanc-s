@@ -1,0 +1,27 @@
+/* line 1, ../sass/style.scss */
+body {
+  width: auto;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: local("FiraSans-Regular"), url("/media/fonts/FiraSans-Regular.woff2") format("woff2");
+}
+/* line 10, ../sass/style.scss */
+legend {
+  background-color: #000;
+  color: #fff;
+  padding: 3px 6px;
+}
+
+/* line 16, ../sass/style.scss */
+.output {
+  font: 1rem 'Fira Sans', sans-serif;
+}
+
+/* line 20, ../sass/style.scss */
+label {
+  margin-top: 1rem;
+  display: block;
+  font-size: .8rem;
+}
