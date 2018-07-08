@@ -5,7 +5,7 @@ var sass = require('gulp-sass');
 //J'appel Brower sync pour rafaich en live
 var browserSync = require('browser-sync');
 //
-gulp.task('sass', function(){
+/*gulp.task('sass', function(){
   return gulp.src('source-files')
     .pipe(sass())    // ici on utilise gulp-sass
     .pipe(gulp.dest('destination'))
@@ -26,8 +26,8 @@ gulp.task('sass', function() {
 gulp.task('watch', function(){
   gulp.watch('app/scss/**/*.scss', ['sass']); 
   // autres observations
-});
-//function de lacement de BrowersSync
+}); */
+//function de lacement de BrowerSync
 gulp.task('browserSync', function() {
   browserSync({
     server: {
